@@ -39,12 +39,17 @@ while camera == True:
             #print(book["Authors"])
             authors_list.append(book["Authors"])
             #b = {"Title": book["Title"], "Authors": book["Authors"]}
+
             b = {"Title": title_list , "Authors": authors_list}
+
             df = pd.DataFrame(b)
             df.index +=1
             df.to_excel("kitaplar.xlsx")
+
             time.sleep(5)
+
             print("Title : {} - Authors : {} ".format(book["Title"],book["Authors"]))
+            
         elif code.data.decode("utf-8") in used_codes:
             print("ISBN Mevcuttur")        
         else:
