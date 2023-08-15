@@ -1,6 +1,7 @@
 ## ISBN Barkot Tarama ve Kaydetme Uygulaması
 
-Uygulama kitapların ISBN (Uluslararası Standart Kitap Numarası) kodlarını hızlı ve etkili bir şekilde tarayarak kitap bilgilerini kaydetmenizi sağlayan kullanışlı bir mobil uygulamadır. Kütüphane sahipleri, kitapseverler ve okuyucular için tasarlanmış olan bu uygulama, kitapları manuel olarak bilgi girmeye gerek kalmadan veritabanınıza eklemenizi kolaylaştırır.
+Uygulama kitapların ISBN (Uluslararası Standart Kitap Numarası) kodlarını hızlı ve etkili bir şekilde tarayarak kitap bilgilerini kaydetmenizi sağlayan kullanışlı bir uygulamadır. 
+Kütüphane sahipleri, kitapseverler ve okuyucular için tasarlanmış olan bu uygulama, kitapları manuel olarak bilgi girmeye gerek kalmadan veritabanınıza eklemenizi kolaylaştırır.
 
 ## ISBN Barkot Tarama ve Kaydetme Uygulaması'nın temel avantajları:
 
