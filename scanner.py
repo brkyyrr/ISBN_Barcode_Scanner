@@ -14,8 +14,8 @@ import pandas as pd
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
-used_codes = []
 
+used_codes = []
 title_list = []
 authors_list = []
 
@@ -35,21 +35,26 @@ while camera == True:
             #book = isbnlib.meta(isbn)
             book = isbnlib.meta(isbn, service='goob')
             #print(book["Title"])
-            title_list.append(book["Title"])
-            #print(book["Authors"])
-            authors_list.append(book["Authors"])
-            #b = {"Title": book["Title"], "Authors": book["Authors"]}
-
+            try:
+                title_list.append(book["Title"])
+                #print(book["Authors"])
+                authors_list.append(book["Authors"])
+                #b = {"Title": book["Title"], "Authors": book["Authors"]}
+                #print("Title : {}\nAuthors : {} ".format(book["Title"],book["Authors"]))
+            except  KeyError:
+                print("Kitap bulunamadi. Elle giriş yapiniz./n")
+                m_Title = input("Title :")
+                m_Authors = input("Authors :")
+                title_list.append(m_Title)
+                authors_list.append(m_Authors)
             b = {"Title": title_list , "Authors": authors_list}
 
             df = pd.DataFrame(b)
             df.index +=1
             df.to_excel("kitaplar.xlsx")
 
-            time.sleep(5)
+            time.sleep(5)  
 
-            print("Title : {} - Authors : {} ".format(book["Title"],book["Authors"]))
-            
         elif code.data.decode("utf-8") in used_codes:
             print("ISBN Mevcuttur")        
         else:
