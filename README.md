@@ -11,6 +11,10 @@ Kütüphane sahipleri, kitapseverler ve okuyucular için tasarlanmış olan bu u
     - Sahip olunan kitapların envanterini takip etmeyi kolaylaştırır.
 
 ## Notlar
-- Bazı kitaplar üzerinde tanımlamanın hata verdiği görülmüştür. Düzeltme yapılacaktır.
+- <del>Bazı kitaplar üzerinde tanımlamanın hata verdiği görülmüştür. Düzeltme yapılacaktır.</del>
+
+    -Hata düzeltmesi yapıldı.<br>
+    -Olmayan kitapların elle girişi yapılabilir hale getirildi.
+
 - Gelecek sürümde kitaplara ait diğer bilgilerin eklenmesi sağlanacaktır.
 - İleri sürümlerde mobil uygulama olarak tasarlanması planlanmaktadır.
