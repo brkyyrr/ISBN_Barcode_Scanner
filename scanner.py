@@ -41,7 +41,7 @@ while camera == True:
                 authors_list.append(book["Authors"])
                 #b = {"Title": book["Title"], "Authors": book["Authors"]}
                 #print("Title : {}\nAuthors : {} ".format(book["Title"],book["Authors"]))
-            except  KeyError:
+            except:
                 print("Kitap bulunamadi. Elle giriş yapiniz./n")
                 m_Title = input("Title :")
                 m_Authors = input("Authors :")
