@@ -56,7 +56,8 @@ while camera == True:
             time.sleep(5)  
 
         elif code.data.decode("utf-8") in used_codes:
-            print("ISBN Mevcuttur")        
+            print("ISBN Mevcuttur")  
+            ###Bu hatadan sonra sürecin devam etmesi için kod eklenecek. Muhtemelen metot yazacağım.##     
         else:
             #print("Hata mevcut")
             pass
@@ -68,8 +69,9 @@ while camera == True:
 # title = book["Title"]
 # print(title)
 # authors = book["Authors"]
-
-
+#isbnlib.dev._exceptions.ISBNNotConsistentError: isbn request != isbn response (9786052229361 not in [{'type': 'ISBN_10', 'identifier': '625738706X'}, {'type': 'ISBN_13', 'identifier': '9786257387064'}])
+#Üstteki hatanın sebebi ISBN numarasının kayıtlarda gerçekten bulunmamasıdır.
+#isbnlib.dev._exceptions.ServiceIsDownError: the service is down (try later) (service timeout)
 cv2.imshow(frame)
 cv2.waitKey(1)
 

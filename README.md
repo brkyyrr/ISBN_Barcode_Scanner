@@ -18,3 +18,5 @@ Kütüphane sahipleri, kitapseverler ve okuyucular için tasarlanmış olan bu u
 
 - Gelecek sürümde kitaplara ait diğer bilgilerin eklenmesi sağlanacaktır.
 - İleri sürümlerde mobil uygulama olarak tasarlanması planlanmaktadır.
+- Kamera farklı bir sayıyı taradığı zaman hata vermektedir.
+- Tarama yapılınca ses ile uyarı vermesi sağlanmalıdır.
